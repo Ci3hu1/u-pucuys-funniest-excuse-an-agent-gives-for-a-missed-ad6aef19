@@ -36,4 +36,11 @@
 - Repo: https://github.com/Ci3hu1/u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19
   commit 68909153c5e39b0c960767a3a1e71e9026bebe34 (main, pushed 06:04:40Z).
   About verified: website = bounty page, topics = [makefun].
-- Live score / rank: NOT YET SUBMITTED — awaiting Joni's 'Setuju' on this exact entry.
+## Submission (24 Nov 2026 ~13:24 WIB, on Joni's "Setuju semua")
+- Entry commit 086be76069b817608ca24cb20b8354d31f9f0dda (HEAD, notes commit on top of entry 6890915), main, pushed, ls-remote verified.
+- Bundle ~/workspace/tools/makefun/bundles/u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19.tar.gz, sha256 8063486fa05d760583db43b4849694debc42e791914308fd6d362c8aebb04fb4 (137,285 B; builder session 28df151e, 1 usage row).
+- Kit check ok=true, failed=[] (thinking_revised + reproduces pass).
+- Submission 01a20c3a-3ae6-761f-8b7d-88e0b64a9ebe, stage submitted (grading queue behind at submit; server checks passing: account_wallet, competition_open, quota). Blind 3 rounds, counts from round 1 (cutoff 24 Nov 13:49:20 UTC / 20:49 WIB).
+- Claim code saved only to ~/.config/makefun/u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19-submission.json (0600).
+
+- Live score / rank: submitted; no score yet (blind rounds — R1 judged after 20:49 WIB 24 Nov).
