@@ -26,6 +26,14 @@
   (default /output), mode 0644, no trailing newline, verifies bytes on read-back.
 - Tests: tests/test_entry.py (unittest) — gate 1–200 chars, exactly one line,
   no trailing newline/blank line, byte-identical reruns, output mode 0644,
-  stdlib-only imports. All pass (see below).
-- Kit check: `node cli/makefun.mjs check` — see result below.
+  stdlib-only imports. ALL 5 PASS (0.210s). Two clean runs byte-identical
+  (diff empty); entry is 102 chars / 102 bytes, no trailing newline.
+- Kit check: `node cli/makefun.mjs check` 24 Nov 2026 ~13:05 WIB — 4 passed
+  (competition_open, snapshot, license_osi, entrypoint), 1 failed
+  (transcripts_present — expected pre-bundle; bundle is made later by the
+  top-level agent), 14 skipped, 5 at-submission checks noted (repo public,
+  owner Ci3hu1, created after opening, commit pushed — all verified true).
+- Repo: https://github.com/Ci3hu1/u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19
+  commit 68909153c5e39b0c960767a3a1e71e9026bebe34 (main, pushed 06:04:40Z).
+  About verified: website = bounty page, topics = [makefun].
 - Live score / rank: NOT YET SUBMITTED — awaiting Joni's 'Setuju' on this exact entry.
