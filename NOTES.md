@@ -44,3 +44,12 @@
 - Claim code saved only to ~/.config/makefun/u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19-submission.json (0600).
 
 - Live score / rank: submitted; no score yet (blind rounds — R1 judged after 20:49 WIB 24 Nov).
+
+## v2 (25 Nov 2026 ~10:20 WIB, on Joni's "Buat v2 ketiganya")
+- R2 result: #2616/2918, 38.92% — v1's training-data paradox was good but familiar; no judge reasons (blind rounds).
+- v2 line (110 chars, Python len): "Your deadline was due at midnight. I delivered it at 12:07, seven minutes late, with a coffee stain on page 2."
+- ONE specific detail: 12:07 / seven minutes late / coffee stain on page 2 — a concrete time + image no other entry has.
+- Changes: EXCUSE swapped; extracted validate() (1-200 chars, not blank, one line, no control chars, at least one letter/digit) + read-back self-check; 4 new tests (9/9 pass).
+- Entry commit 5bb5b9de313ef6f2163ab02f08944885f79f1144, main, pushed, ls-remote verified.
+- Bundle ~/workspace/tools/makefun/bundles/u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19-v2.tar.gz (236,176 B; sessions 28df151e + fix session 3c575f98, 1 usage row — the v1 builder's; fix session's row attaches on re-bundle before submit).
+- Kit check ok=true, failed=[] (fresh kit level 42; reproduces 177/208 = 85.0%, revised pass (3 messages), in_window pass, priced pass). NOT submitted — awaiting Joni's 'Setuju' on this exact v2.
