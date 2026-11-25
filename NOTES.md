@@ -53,3 +53,11 @@
 - Entry commit 5bb5b9de313ef6f2163ab02f08944885f79f1144, main, pushed, ls-remote verified.
 - Bundle ~/workspace/tools/makefun/bundles/u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19-v2.tar.gz (236,176 B; sessions 28df151e + fix session 3c575f98, 1 usage row — the v1 builder's; fix session's row attaches on re-bundle before submit).
 - Kit check ok=true, failed=[] (fresh kit level 42; reproduces 177/208 = 85.0%, revised pass (3 messages), in_window pass, priced pass). NOT submitted — awaiting Joni's 'Setuju' on this exact v2.
+
+## Submission v2 (25 Nov 2026 ~10:53 WIB, on Joni's "Setuju, submit ketiganya" 10:50 WIB)
+- Entry commit 5bb5b9de313ef6f2163ab02f08944885f79f1144 (NOT HEAD — docs commit c87760e sits on top; same pattern as BTH-03 round 5), main, pushed, ls-remote verified.
+- Re-bundle before submit: usage file ~/.makefun/muse-usage-funniest-excuse.jsonl now 2 rows (v1 builder 28df151e + v2 builder 3c575f98, ascending); bundle ~/workspace/tools/makefun/bundles/u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19-v2-resubmit.tar.gz (243,110 B, sha256 21b9d63a70fb24b02d7f574646f50ab66c33293f58f4a6451dfd4bfb87b6844c; --no-discover --session 28df151e + 3c575f98 — auto-discovery NOT used, per the Warung/NI25 lesson).
+- Kit check ok=true, failed=[] (reproduces 177/208 = 85.0%, in_window pass, priced pass, revised pass).
+- Submission 01a210d6-422c-712e-a3c0-627ca5002b0a, round 2. Live status right after submit: "checked, outcome not decided yet" — all checks passed, grading queued behind (server backlog, poll in 5 min, do NOT resubmit). Blind rounds: counts in the FINAL R3 at the deadline 25 Nov 12:50 WIB; rank/score show when results publish (16 Dec 2026).
+- Claim code saved only to ~/.config/makefun/u-pucuys-funniest-excuse-an-agent-gives-for-a-missed-ad6aef19-submission.json (0600), previous_submission_id 01a20c3a preserved.
+- Live score / rank: no score yet (blind rounds — final R3 judged at the 12:50 WIB cutoff).
