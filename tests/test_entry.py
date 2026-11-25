@@ -55,5 +55,28 @@ class TestEntry(unittest.TestCase):
                 self.assertIn(mod, allowed, f"non-stdlib import: {line}")
 
 
+class TestV2Line(unittest.TestCase):
+    EXPECTED = "Your deadline was due at midnight. I delivered it at 12:07, seven minutes late, with a coffee stain on page 2."
+
+    def test_v2_line_exact_bytes(self):
+        with tempfile.TemporaryDirectory() as td:
+            dest = run_main(Path(td))
+            self.assertEqual(dest.read_bytes(), self.EXPECTED.encode("utf-8"))
+
+    def test_v2_line_length(self):
+        self.assertEqual(len(self.EXPECTED), 110)
+
+    def test_v2_specific_detail(self):
+        self.assertIn("12:07", self.EXPECTED)
+        self.assertIn("coffee stain on page 2", self.EXPECTED)
+        self.assertIn("seven minutes late", self.EXPECTED)
+
+    def test_validate_rejects_punctuation_only(self):
+        sys.path.insert(0, str(ROOT))
+        import main as entry
+        with self.assertRaises(ValueError):
+            entry.validate("!!!")
+
+
 if __name__ == "__main__":
     unittest.main()
